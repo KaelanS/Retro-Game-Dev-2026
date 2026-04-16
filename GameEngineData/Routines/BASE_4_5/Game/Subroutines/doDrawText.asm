@@ -223,7 +223,7 @@ alreadyDrawingText:
 			UpdateHudElement #$05    ; Update HUD to match
 
 			;; Now trigger the screen so they can't get it again
-			TriggerScreen #$00       ; This sets the screen trigger bit
+			;TriggerScreen #$00       ; This sets the screen trigger bit
 		+notKeyRoom:
 			;; --- KEY REWARD LOGIC END ---
 			;; end of text
